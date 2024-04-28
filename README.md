@@ -6,6 +6,7 @@ This repository contains a project that converts videos to ASCII art which can t
 https://github.com/pinkponk/web-ascii-video/assets/14301446/aa68a065-8591-4c67-bff3-8f366d4102bb
 
 ## Input video:
+Created using [Spline](https://app.spline.design/community/file/f63c267f-bd6c-4079-a43f-00bcc20d6520).
 
 https://github.com/pinkponk/web-ascii-video/assets/14301446/6affcf59-c373-492e-bcc8-2b26174a946d
 
