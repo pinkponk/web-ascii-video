@@ -4,25 +4,13 @@
 <head>
     <title>ASCII Art Display</title>
     <h1>ASCII Art Display</h1>
-    <style>
-        #asciiArtCanvas {
-            background-color: #F4F4ED;
-            /* width: 100%; */
-            font-size: 2.5em;
-            /* Bold text */
-            font-weight: bold;
-
-        }
-    </style>
 </head>
 <body>
-
-
 
 <div>
     <style>
       #asciiArtCanvas {
-        background-color: rgb(7, 2, 14, 0);
+        background-color: rgb(7, 2, 14, 100);
         width: 100%;
         font-size: 1.5em;
         border-radius: 2rem;
@@ -31,7 +19,7 @@
     <canvas id="asciiArtCanvas"></canvas>
     <script src="https://cdn.jsdelivr.net/npm/pako@1.0.11/dist/pako.min.js"></script>
     <script>
-      fetch('https://cdn.jsdelivr.net/gh/pinkponk/coignition-webflow@v0.2.1/aikollega_canvas.js.gz').then(response => response.arrayBuffer()).then(buffer => {
+      fetch('https://cdn.jsdelivr.net/gh/pinkponk/web-ascii-video@v0.1/art_example.js.gz').then(response => response.arrayBuffer()).then(buffer => {
         const decompressed = pako.inflate(new Uint8Array(buffer), {
           to: 'string'
         });
