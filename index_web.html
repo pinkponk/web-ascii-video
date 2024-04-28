@@ -19,7 +19,7 @@
     <canvas id="asciiArtCanvas"></canvas>
     <script src="https://cdn.jsdelivr.net/npm/pako@1.0.11/dist/pako.min.js"></script>
     <script>
-      fetch('https://cdn.jsdelivr.net/gh/pinkponk/web-ascii-video@v0.1/art_example.js.gz').then(response => response.arrayBuffer()).then(buffer => {
+      fetch('https://cdn.jsdelivr.net/gh/pinkponk/web-ascii-video@v0.2/art_example.js.gz').then(response => response.arrayBuffer()).then(buffer => {
         const decompressed = pako.inflate(new Uint8Array(buffer), {
           to: 'string'
         });

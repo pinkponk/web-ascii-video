@@ -35,7 +35,7 @@ Credit to [joelibaceta](https://github.com/joelibaceta) for the `video-to-ascii`
 To change the resolution output by `video-to-ascii`, modify the resolution settings in the strategy file:
 
 ```bash
-sed -i 's/^DEFAULT_TERMINAL_SIZE.*/DEFAULT_TERMINAL_SIZE = 280, 60/' ~/miniconda3/envs/web-ascii-video/lib/python3.7/site-packages/video_to_ascii/render_strategy/ascii_strategy.py
+sed -i 's/^DEFAULT_TERMINAL_SIZE.*/DEFAULT_TERMINAL_SIZE = 380, 90/' ~/miniconda3/envs/web-ascii-video/lib/python3.7/site-packages/video_to_ascii/render_strategy/ascii_strategy.py
 ```
 
 **Note:** The package currently does not support dynamic resolution settings. Contributions to add this feature are welcome—please consider submitting a pull request to the `video-to-ascii` repository.
@@ -64,10 +64,10 @@ Right-click on index_local.html > Open with Live Server
 
 #### Uploading to GitHub
 
-Upload the `art.sh.gz` file to GitHub and ensure it is public. You can create a tag (e.g., `v0.1`) or use a permalink to reference the file directly:
+Upload the `art.sh.gz` file to GitHub and ensure it is public. You can create a tag (e.g., `v0.2`) or use a permalink to reference the file directly:
 
 ```bash
-https://github.com/pinkponk/web-ascii-video/blob/v0.1/art.js.gz
+https://github.com/pinkponk/web-ascii-video/blob/v0.2/art.js.gz
 ```
 
 #### Creating a CDN Link
@@ -75,7 +75,7 @@ https://github.com/pinkponk/web-ascii-video/blob/v0.1/art.js.gz
 For faster loading, create a CDN link to your JavaScript file hosted on GitHub using [jsDelivr](https://www.jsdelivr.com/github):
 
 ```bash
-https://cdn.jsdelivr.net/gh/pinkponk/web-ascii-video@v0.1/art.js.gz
+https://cdn.jsdelivr.net/gh/pinkponk/web-ascii-video@v0.2/art.js.gz
 ```
 
 ### Serving Web Content
