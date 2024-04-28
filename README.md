@@ -1,6 +1,13 @@
 # Web ASCII Video
-
 This repository contains a project that converts videos to ASCII art which can then be displayed via a web interface.
+
+## Result:
+
+https://github.com/pinkponk/web-ascii-video/assets/14301446/aa68a065-8591-4c67-bff3-8f366d4102bb
+
+## Input video:
+
+https://github.com/pinkponk/web-ascii-video/assets/14301446/6affcf59-c373-492e-bcc8-2b26174a946d
 
 ## Prerequisites
 
